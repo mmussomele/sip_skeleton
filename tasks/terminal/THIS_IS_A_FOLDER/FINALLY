@@ -1,0 +1,5 @@
+Alright! Almost done. 
+Now that it's in the right place, we can compile the .cpp file we copied earlier.
+Use the command "g++ C_PLUS_PLUS/test.cpp -o test" to do so.
+Now that we've compiled all of our file, lets run it! Use "./test"
+Congrats! You're finshed.

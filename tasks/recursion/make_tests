@@ -1,0 +1,2 @@
+recursion_test: recursion.cpp recursion_test.cpp
+	g++ -Wall -std=c++11 recursion_test.cpp recursion.cpp -lgtest -o recursion_test

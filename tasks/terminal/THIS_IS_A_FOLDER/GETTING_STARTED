@@ -1,0 +1,6 @@
+Try printing some text to the screen. Use "echo 'Hello World'" to say hi!
+Now try sending text to a file. First lets make the file using "touch text.txt".
+Use "echo 'This is in a file.' > text.txt". To see that it worked, use "cat text.txt".
+Now try adding some more text. Use "echo 'This is also in a file' >> text.txt". To see that it worked, use "cat text.txt".
+Now we don't want that file hanging around anymore. Use "rm text.txt" to delete it. 
+When you're ready, use "cat NEXT_STEPS" for more.

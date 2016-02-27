@@ -1,0 +1,49 @@
+Welcome to this basic bash terminal tutorial!
+Here you will learn what you need to use your terminal effectively in this course. 
+
+Basic useful commands:
+
+    cd [DIR]                - moves into the given directory   
+    ls [DIR...]             - print the contents of the given directories
+    echo [TEXT]             - prints the given text to the screen
+    echo [TEXT] > [DEST]    - overwrites the file at the destination with the given text
+    echo [TEXT] >> [DEST]   - append the given text to the file at the destination
+    touch [FILE...]         - creates the given files if it doesn't exist
+    rm [FILE...]            - delete the given files
+    rm -r [DIR...]          - delete
+    mkdir [DIR...]          - creates the given folders if they don't exist
+    cp [FILE] [DEST]        - copies the given file to the given destination, overwriting it the destination is an 
+                              existing file and adding it if it is an existing folder
+    cp -a [DIR] [DEST]      - copies the given file to the given destination
+    mv [FILE] [DEST]        - moves the given file/directory to the given destination (like cut and paste)
+                              NOTE: This can also be used to rename files/folders
+    cat [FILE...]           - print the contents of the given files to the terminal
+
+C++ related commands:
+    
+    g++ [FILE...] -o [OUTPUT_FILE]  - compiles all the given files into one file named OUTPUT_FILE
+    make                            - runs a file named 'makefile' if it is present (we will talk about these later)
+    make -f [FILE]                  - runs the given file as if it were a makefile
+
+
+Constants and Wildcards:
+
+    .   - the current directory
+    ..  - the current parent directory
+    ~   - your home directory (either /home/YOURUSERNAME or /Users/YOURUSERNAME)
+    /   - the root directory (like C:\ in Windows)
+    *   - match any file
+    **  - match any folder
+
+Tab Completion: When typing out a command, pressing <TAB> will have your terminal attempt to autocomplete it.
+                If there are multiple possibilities, hitting <TAB> twice will display them all.
+
+            ex/ 
+                username     ~/     $ cd Do<TAB><TAB>   # attempt to autocomplete "cd Do", but there are two possible folders
+                Documents/ Downloads/                   # bash displays the possibilities
+                username     ~/     $ cd Doc<TAB>       # change input to "cd Doc", now there is only one possible folder
+                username     ~/     $ cd Documents      # bash can complete your command without any error
+                username     ~/Documents     $          # hitting enter moves you into the ~/Documents directory
+
+
+Once you've finished reading this, go back to your terminal and execute "cat THEN_HERE".

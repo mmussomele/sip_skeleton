@@ -1,0 +1,2 @@
+functions_test: functions_test.cpp functions.cpp functions.h
+	g++ -std=c++11 -Wall functions_test.cpp functions.cpp -lgtest -pthread -lgtest_main -o functions_test

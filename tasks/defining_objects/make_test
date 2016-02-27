@@ -1,0 +1,2 @@
+calculator_test: Calculator_test.cpp Calculator.cpp Calculator.h 
+    g++ -Wall -std=c++11 Calculator.cpp Calculator_test.cpp -lgtest -o calculator_test

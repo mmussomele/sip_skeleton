@@ -1,0 +1,2 @@
+pointers_test: pointers.cpp pointers.h pointers_test.cpp
+	g++ -Wall -std=c++11 pointers_test.cpp pointers.cpp -lgtest -o pointers_test

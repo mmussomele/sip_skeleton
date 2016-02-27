@@ -1,0 +1,3 @@
+If you execute "ls .", you'll notice there is another folder in this directory. 
+Look inside of it with "ls THIS_IS_A_FOLDER". Feel free to try out autocomplete while doing so.
+Try navigating to it using "cd THIS_IS_A_FOLDER". Use "cat GETTING_STARTED for instructions."

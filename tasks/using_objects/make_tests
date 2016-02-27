@@ -1,0 +1,2 @@
+rooms_test: Robot.cpp Robot.h rooms.cpp rooms.h rooms_test.cpp
+	g++ -Wall -std=c++11 Robot.cpp rooms.cpp rooms_test.cpp -lgtest -o rooms_test

@@ -1,0 +1,5 @@
+Now lets practive copying files. 
+Notice the file ending in .cpp. We're going to use that in a minute.
+Lets make a new folder call "C_PLUS_PLUS" using "mkdir C_PLUS_PLUS".
+Copy the .cpp file there using "cp test.cpp C_PLUS_PLUS/". 
+Use "cat FINALLY" for the last instructions.
